@@ -73,7 +73,7 @@ body{
 
 
 
-/* modal1 */
+/* modal1 /modal2 */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
 .wrapper{
@@ -94,6 +94,12 @@ body{
     position: relative;
     width: 100%;
     color: #fff;
+}
+.wrapper .form-left3{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    position: relative;
+    width: 100%;
 }
 
 .wrapper h2{
@@ -145,6 +151,10 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     padding: 20px 40px;
+    position: relative;
+    width: 100%;
+}
+.wrapper .form-right3{ 
     position: relative;
     width: 100%;
 }
@@ -293,158 +303,52 @@ body{
 
 
 
-/* modal3 */
-.wrapper1 {
-    height: 420px;
-    width: 654px;
-    margin: 50px auto;
-    border-radius: 7px ;
-    /* VIA CSS MATIC https://goo.gl/cIbnS */
-    -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
-    -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
-    box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
-  }
-  
-  .product-img {
-    float: left;
-    height: 420px;
-    width: 327px;
-  }
-  
-  .product-img img {
-    border-radius: 7px 0 0 7px;
-  }
-  
-  .product-info {
-    float: left;
-    height: 420px;
-    width: 327px;
-    border-radius: 0 7px 10px 7px;
-    background-color: #ffffff;
-  }
-  
-  .product-text {
-    height: 270px;
-    width: 327px;
-  }
-  
-  .product-text h1 {
-    margin: 0 0 0 38px;
-    /* padding-top: 52px; */
-    font-size: 34px;
-    color: black;
-  }
-  
-  .product-text h1,
-  .product-price-btn p {
-    font-family: 'Bentham', serif;
-  }
-  
-  .product-text h2 {
-    margin: 10px 0 20px 38px;
-    font-size: 13px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-    text-transform: uppercase;
-    color: #dc3545;
-    letter-spacing: 0.2em;
-  }
-  
-  .product-text p {
-    height: 125px;
-    margin: 0 0 0 38px;
-    font-family: 'Playfair Display', serif;
-    color: #8d8d8d;
-    line-height: 1.7em;
-    font-size: 15px;
-    font-weight: lighter;
-    overflow: hidden;
-  }
-  
-  .product-price-btn {
-    height: 103px;
-    width: 327px;
-    position: relative;
-  }
-  
-  .product-price-btn p {
-    display: inline-block;
-    position: absolute;
-    top: -13px;
-    height: 50px;
-    font-family: 'Trocchi', serif;
-    margin: 0 0 0 38px;
-    font-size: 28px;
-    font-weight: lighter;
-    color: #474747;
-  }
-  
-  .span1 {
-    display: inline-block;
-    height: 50px;
-    font-family: 'Suranna', serif;
-    font-size: 34px;
-  }
-  
-  .product-price-btn button {
-    float: right;
-    display: inline-block;
-    height: 50px;
-    width: 176px;
-    margin: 0 40px 0 16px;
-    box-sizing: border-box;
-    border: transparent;
-    border-radius: 60px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 14px;
-    font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: 0.2em;
-    color: #ffffff;
-    background-color: #dc3545;
-    cursor: pointer;
-    outline: none;
-  }
-  .product-price-btn button:hover {
-    background-color: #e29da4;
-  }
-
-  /* @media (max-width: 1000px) {
-    .wrapper1 {
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-      }
-      
-      .product-img {
-        width: 50%;
-      }
-      .product-info {
-        width: 50%;
-        height: 600px;
-        text-align: center
-      }
-  
-} */
-
-
-
-
-
-
-
 /* modal2 */
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
 
 
-.navbar-brand{text-transform: uppercase;font-size: 14px;font-weight: 800}
-.order .card{position: relative;background: #fff;box-shadow: 0 0 15px rgba(0, 0, 0, .1)}
-.ribbon{width: 150px;height: 150px;overflow: hidden;position: absolute}
-.ribbon::before, .ribbon::after{position: absolute;content: '';display: block;border: 5px solid #dc3545}
-.ribbon span{position: absolute;display: block;width: 225px;padding: 15px 0;background-color: #dc3545;box-shadow: 0 5px 10px rgba(0, 0, 0, .1);color: #fff;font: 700 18px/1 'Lato', sans-serif;
-    text-shadow: 0 1px 1px rgba(0, 0, 0, .2);text-transform: uppercase;text-align: center}
-.ribbon-top-right{top: -12px;right: -12px}
-.ribbon-top-right::before, .ribbon-top-right::after{border-top-color: transparent;border-right-color: transparent}
+.navbar-brand{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 800
+}
+.order .card{
+    position: relative;
+    background: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .1)
+}
+.ribbon{
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    position: absolute
+}
+.ribbon::before, .ribbon::after{
+    position: absolute;
+    content: '';
+    display: block;
+    border: 5px solid #dc3545
+}
+.ribbon span{
+    position: absolute;
+    display: block;
+    width: 225px;
+    padding: 15px 0;
+    background-color: #dc3545;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+    color: #fff;
+    font: 700 18px/1 'Lato', sans-serif;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+    text-transform: uppercase;
+    text-align: center}
+
+.ribbon-top-right{
+    top: -12px;
+    right: -12px
+}
+.ribbon-top-right::before, .ribbon-top-right::after{
+    border-top-color: transparent;
+    border-right-color: transparent}
 .ribbon-top-right::before{top: 0;left: 0}
 .ribbon-top-right::after{bottom: 0;right: 0}
 .ribbon-top-right span{left: -25px;top: 30px;transform: rotate(45deg)}
