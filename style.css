@@ -13,6 +13,14 @@ body{
 .bouton{
     height: 3px;
 }
+.try{
+    background-color: rgba(253, 71, 101, 0.873)  !important;
+    color: whitesmoke !important;
+}
+.try a{
+    
+    color: whitesmoke !important;
+}
 
 .hover1:hover{
     background-color: rgb(247, 245, 245);
